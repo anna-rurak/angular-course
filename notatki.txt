@@ -1,0 +1,3 @@
+Kiedy chcemy dynamicznie zadeklarować wartość atrybutu używany nawiasów kwadratowych np: 
+    <img [src]="'assets/users/' + selectedUser.avatar"/>
+Chociaż może się wydawać, że wiążesz atrybut src tagu <img>, tak naprawdę tego nie robisz. W Angularze wiązanie właściwości celuje w właściwość obiektu DOM (w tym przypadku właściwość o nazwie src) i to ją wiąże.
